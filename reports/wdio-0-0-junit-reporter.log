@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="The Internet Guinea Pig Website" timestamp="2022-02-17T15:45:16" time="10.949" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="The Internet Guinea Pig Website"/>
+      <property name="capabilities" value="chrome.98_0_4758_102.macosx"/>
+      <property name="featureFile" value="./features/login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.98_0_4758_102.macosx.The Internet Guinea Pig Website" name="As a user I can log into the secure area" time="9.231">
+      <system-out><![CDATA[
+✅ Given I am on the login page✅ When I login with tomsmith and SuperSecretPassword!✅ Then I should see a flash message saying You logged into a secure area!
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.98_0_4758_102.macosx.The Internet Guinea Pig Website" name="As a user I can log into the secure area" time="1.675">
+      <system-out><![CDATA[
+✅ Given I am on the login page✅ When I login with foobar and barfoo✅ Then I should see a flash message saying Your username is invalid!
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
